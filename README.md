@@ -42,6 +42,7 @@ High five! ✋
 
 ```sh
 npx lerna version --no-private # bump versions
+npm run build
 pnpm --filter "./packages/**" publish --dry-run --no-git-checks # test publish
 pnpm --filter "./packages/**" publish --access public # actual publish
 ```
