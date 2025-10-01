@@ -37,3 +37,11 @@ Please go to our [docs](https://docs.easyblocks.io) to learn more.
 Easyblocks is built by the team behind [Shopstory](https://shopstory.app) - a visual builder for headless CMSes. Easyblocks is basically an internal Shopstory engine cleaned up and open-sourced ❤️
 
 High five! ✋
+
+## publish
+
+```sh
+npx lerna version --no-private # bump versions
+pnpm --filter "./packages/**" publish --dry-run --no-git-checks # test publish
+pnpm --filter "./packages/**" publish --access public # actual publish
+```
