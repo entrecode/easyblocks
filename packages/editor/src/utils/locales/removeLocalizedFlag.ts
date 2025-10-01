@@ -8,6 +8,7 @@ export function removeLocalizedFlag(
 ) {
   return configMap(config, context, ({ value, schemaProp }) => {
     if (value === undefined) {
+      console.debug("skip schemaProp", schemaProp);
       return value;
     }
     if (
