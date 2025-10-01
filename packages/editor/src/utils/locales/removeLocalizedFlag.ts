@@ -7,6 +7,9 @@ export function removeLocalizedFlag(
   context: CompilationContextType
 ) {
   return configMap(config, context, ({ value, schemaProp }) => {
+    if (value === undefined) {
+      return value;
+    }
     if (
       (schemaProp.type === "text" && value.id.startsWith("local.")) ||
       schemaProp.type === "component-collection-localised"
