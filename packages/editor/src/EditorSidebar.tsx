@@ -1,6 +1,6 @@
-import { CompiledComponentConfig } from "@easyblocks/core";
-import { Fonts } from "@easyblocks/design-system";
-import { dotNotationGet } from "@easyblocks/utils";
+import { CompiledComponentConfig } from "@ecblocks/core";
+import { Fonts } from "@ecblocks/design-system";
+import { dotNotationGet } from "@ecblocks/utils";
 import React from "react";
 import styled from "styled-components";
 import { buildTinaFields } from "./buildTinaFields";
@@ -37,7 +37,7 @@ export const EditorSidebar: React.FC<EditorSidebarProps> = (props) => {
         path
       );
       const editableComponent = dotNotationGet(form.values, path);
-      if (compiledComponent?._component === "@easyblocks/missing-component") {
+      if (compiledComponent?._component === "@ecblocks/missing-component") {
         return `Can’t find definition for component: ${editableComponent._component} in your project. Please contact your developers to resolve this issue.`;
       }
     }

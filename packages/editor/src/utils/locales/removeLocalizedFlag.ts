@@ -1,5 +1,5 @@
-import { NoCodeComponentEntry } from "@easyblocks/core";
-import { CompilationContextType } from "@easyblocks/core/_internals";
+import { NoCodeComponentEntry } from "@ecblocks/core";
+import { CompilationContextType } from "@ecblocks/core/_internals";
 import { configMap } from "../config/configMap";
 
 export function removeLocalizedFlag(

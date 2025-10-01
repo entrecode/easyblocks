@@ -1,7 +1,7 @@
 "use client";
 
-import { EasyblocksEditor } from "@easyblocks/editor";
-import { Config, EasyblocksBackend } from "@easyblocks/core";
+import { EasyblocksEditor } from "@ecblocks/editor";
+import { Config, EasyblocksBackend } from "@ecblocks/core";
 import { ReactElement } from "react";
 
 if (!process.env.NEXT_PUBLIC_EASYBLOCKS_ACCESS_TOKEN) {
@@ -41,7 +41,7 @@ const easyblocksConfig: Config = {
           prop: "Title",
           type: "component",
           required: true,
-          accepts: ["@easyblocks/rich-text"],
+          accepts: ["@ecblocks/rich-text"],
         },
       ],
       styles: ({ values }) => {

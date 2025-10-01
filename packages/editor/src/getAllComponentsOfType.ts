@@ -2,7 +2,7 @@ import { EditorContextType } from "./EditorContext";
 import {
   ComponentDefinitionShared,
   isNoCodeComponentOfType,
-} from "@easyblocks/core";
+} from "@ecblocks/core";
 
 export function getAllComponentsOfType(
   type: string,

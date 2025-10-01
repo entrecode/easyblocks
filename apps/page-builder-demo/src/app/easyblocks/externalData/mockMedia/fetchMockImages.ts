@@ -1,4 +1,4 @@
-import { RequestedExternalData, ExternalData } from "@easyblocks/core";
+import { RequestedExternalData, ExternalData } from "@ecblocks/core";
 import { MOCK_ASSETS } from "./mockAssets";
 
 export async function fetchMockImages(
@@ -34,7 +34,7 @@ export async function fetchMockImages(
     }
 
     results[fieldId] = {
-      type: "@easyblocks/image",
+      type: "@ecblocks/image",
       value: {
         url: asset.url,
         alt: asset.title,

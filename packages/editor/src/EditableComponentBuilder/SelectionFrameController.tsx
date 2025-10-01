@@ -1,6 +1,6 @@
 import type { useSortable } from "@dnd-kit/sortable";
-import { selectionFramePositionChanged } from "@easyblocks/core/_internals";
-import { Colors } from "@easyblocks/design-system";
+import { selectionFramePositionChanged } from "@ecblocks/core/_internals";
+import { Colors } from "@ecblocks/design-system";
 import React, { MouseEvent, ReactNode, useEffect, useState } from "react";
 
 type SelectionFrameControllerProps = {

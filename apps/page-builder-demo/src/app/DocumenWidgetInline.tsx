@@ -21,13 +21,13 @@ export const DocumentWidgetInline: React.FC<{
 
   useEffect(() => {
     function handleMessage(event: MessageEvent) {
-      if (event.data.type === "@easyblocks/closed") {
+      if (event.data.type === "@ecblocks/closed") {
         window.removeEventListener("message", handleMessage);
         router.refresh();
         onOpenChange(false);
       }
 
-      if (event.data.type === "@easyblocks/content-saved") {
+      if (event.data.type === "@ecblocks/content-saved") {
         console.log("ON SAVE", event.data.document);
         onSave(event.data.document);
       }

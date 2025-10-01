@@ -2,7 +2,7 @@ import {
   NoCodeComponentDefinition,
   SchemaProp,
   EditingField,
-} from "@easyblocks/core";
+} from "@ecblocks/core";
 
 import { toStartEnd } from "@/app/easyblocks/components/utils/toStartEnd";
 import {

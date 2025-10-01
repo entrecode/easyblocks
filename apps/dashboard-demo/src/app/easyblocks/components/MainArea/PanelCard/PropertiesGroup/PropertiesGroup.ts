@@ -1,4 +1,4 @@
-import { NoCodeComponentDefinition } from "@easyblocks/core";
+import { NoCodeComponentDefinition } from "@ecblocks/core";
 
 const propertiesGroupDefinition: NoCodeComponentDefinition<{
   Properties: Array<{}>;

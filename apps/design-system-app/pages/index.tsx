@@ -1,4 +1,4 @@
-import { Colors } from "@easyblocks/design-system";
+import { Colors } from "@ecblocks/design-system";
 import React, { useEffect, useState } from "react";
 import { TypographyStories } from "../src/TypographyStories";
 import { ColorStories } from "../src/ColorStories";

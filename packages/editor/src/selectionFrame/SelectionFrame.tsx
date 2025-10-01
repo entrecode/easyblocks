@@ -1,14 +1,14 @@
 import {
   CompiledShopstoryComponentConfig,
   EditingInfoBase,
-} from "@easyblocks/core";
+} from "@ecblocks/core";
 import {
   SelectionFramePositionChangedEvent,
   findComponentDefinitionById,
   isSchemaPropCollection,
   parsePath,
-} from "@easyblocks/core/_internals";
-import { dotNotationGet } from "@easyblocks/utils";
+} from "@ecblocks/core/_internals";
+import { dotNotationGet } from "@ecblocks/utils";
 import React, { useLayoutEffect } from "react";
 import { EditorContextType, useEditorContext } from "../EditorContext";
 import { pathToCompiledPath } from "../pathToCompiledPath";
@@ -74,8 +74,7 @@ function SelectionFrame({ width, height, transform }: SelectionFrameProps) {
       }
 
       if (
-        event.data.type ===
-        "@easyblocks-editor/selection-frame-position-changed"
+        event.data.type === "@ecblocks-editor/selection-frame-position-changed"
       ) {
         updateAddButtons(
           direction,

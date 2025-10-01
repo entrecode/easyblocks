@@ -3,7 +3,7 @@ import {
   EditingField,
   NoCodeComponentDefinition,
   Config,
-} from "@easyblocks/core";
+} from "@ecblocks/core";
 import { rootSectionStackStyles } from "./RootSectionStack.styles";
 import { productWidget } from "@/app/easyblocks/externalData/product/productWidget";
 

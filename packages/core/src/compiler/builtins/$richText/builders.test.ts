@@ -12,7 +12,7 @@ import {
   buildRichTextPartComponentConfig,
 } from "./builders";
 
-describe("@easyblocks/rich-text-part", () => {
+describe("@ecblocks/rich-text-part", () => {
   test("builds", () => {
     expect(
       buildRichTextPartComponentConfig({
@@ -34,7 +34,7 @@ describe("@easyblocks/rich-text-part", () => {
     ).toEqual(
       expect.objectContaining<RichTextPartComponentConfig>({
         _id: expect.any(String),
-        _component: "@easyblocks/rich-text-part",
+        _component: "@ecblocks/rich-text-part",
         color: {
           $res: true,
           xl: {
@@ -55,7 +55,7 @@ describe("@easyblocks/rich-text-part", () => {
   });
 });
 
-describe("@easyblocks/rich-text-line-element", () => {
+describe("@ecblocks/rich-text-line-element", () => {
   test("builds", () => {
     expect(
       buildRichTextLineElementComponentConfig({
@@ -64,21 +64,21 @@ describe("@easyblocks/rich-text-line-element", () => {
     ).toEqual(
       expect.objectContaining<RichTextLineElementComponentConfig>({
         _id: expect.any(String),
-        _component: "@easyblocks/rich-text-line-element",
+        _component: "@ecblocks/rich-text-line-element",
         elements: [],
       })
     );
   });
 });
 
-describe("@easyblocks/rich-text-block-element", () => {
+describe("@ecblocks/rich-text-block-element", () => {
   test.each(RICH_TEXT_BLOCK_ELEMENT_TYPES)(
     "builds block element of type %s",
     (type) => {
       expect(buildRichTextBlockElementComponentConfig(type, [])).toEqual(
         expect.objectContaining<RichTextBlockElementComponentConfig>({
           _id: expect.any(String),
-          _component: "@easyblocks/rich-text-block-element",
+          _component: "@ecblocks/rich-text-block-element",
           elements: [],
           type,
         })
@@ -87,7 +87,7 @@ describe("@easyblocks/rich-text-block-element", () => {
   );
 });
 
-describe("@easyblocks/rich-text", () => {
+describe("@ecblocks/rich-text", () => {
   test("builds with defaults", () => {
     expect(
       buildRichTextComponentConfig({
@@ -111,7 +111,7 @@ describe("@easyblocks/rich-text", () => {
     ).toEqual(
       expect.objectContaining<RichTextComponentConfig>({
         _id: expect.any(String),
-        _component: "@easyblocks/rich-text",
+        _component: "@ecblocks/rich-text",
         accessibilityRole: "div",
         elements: {
           en: [],

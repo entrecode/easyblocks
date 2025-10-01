@@ -1,4 +1,4 @@
-import { serialize } from "@easyblocks/utils";
+import { serialize } from "@ecblocks/utils";
 import { buildEntry } from "./buildEntry";
 import type {
   RequestedExternalData,

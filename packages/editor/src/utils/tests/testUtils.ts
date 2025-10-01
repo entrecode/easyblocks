@@ -1,8 +1,8 @@
-import { Devices } from "@easyblocks/core";
+import { Devices } from "@ecblocks/core";
 import {
   CompilationCache,
   createTestCompilationContext,
-} from "@easyblocks/core/_internals";
+} from "@ecblocks/core/_internals";
 import { EditorContextType } from "../../EditorContext";
 import { Form } from "../../form";
 

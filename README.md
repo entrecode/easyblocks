@@ -36,11 +36,4 @@ Please go to our [docs](https://docs.easyblocks.io) to learn more.
 
 Easyblocks is built by the team behind [Shopstory](https://shopstory.app) - a visual builder for headless CMSes. Easyblocks is basically an internal Shopstory engine cleaned up and open-sourced ❤️
 
-## Contact
-
-You can leave the questions or issues here. Alternatively, contact us via:
-
-1. [Twitter/X](https://twitter.com/ardabrowski)
-2. [E-mail](mailto:andrzej@easyblocks.io)
-
 High five! ✋

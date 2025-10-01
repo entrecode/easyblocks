@@ -1,4 +1,4 @@
-import { RequestedExternalData, ExternalData, Widget } from "@easyblocks/core";
+import { RequestedExternalData, ExternalData, Widget } from "@ecblocks/core";
 
 import { fetchProductsByIds } from "@/data/shopify";
 
@@ -61,7 +61,7 @@ async function fetchProductResources(
             ...(product.primaryImage &&
               product.primaryImage.mediaType === "image" && {
                 productPrimaryImage: {
-                  type: "@easyblocks/image",
+                  type: "@ecblocks/image",
                   value: {
                     url: product.primaryImage.mediaObject.src,
                     alt: product.primaryImage.mediaObject.alt,

@@ -23,13 +23,13 @@ const editing: RichTextEditingFunction = ({
 
   const richTextPath = findPathOfFirstAncestorOfType(
     pathPrefix,
-    "@easyblocks/rich-text",
+    "@ecblocks/rich-text",
     editorContext.form
   );
 
   const richTextBlockPath = findPathOfFirstAncestorOfType(
     pathPrefix,
-    "@easyblocks/rich-text-block-element",
+    "@ecblocks/rich-text-block-element",
     editorContext.form
   );
 
@@ -78,7 +78,7 @@ const editing: RichTextEditingFunction = ({
 
 const richTextPartEditableComponent: NoCodeComponentDefinition<RichTextPartValues> =
   {
-    id: "@easyblocks/rich-text-part",
+    id: "@ecblocks/rich-text-part",
     label: "Text",
     schema: [
       {
@@ -104,7 +104,7 @@ const richTextPartEditableComponent: NoCodeComponentDefinition<RichTextPartValue
         label: "Text Wrapper",
         type: "component",
         noInline: true,
-        accepts: ["@easyblocks/text-wrapper"],
+        accepts: ["@ecblocks/text-wrapper"],
         visible: true,
         group: "Text Wrapper",
         isLabelHidden: true,

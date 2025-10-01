@@ -1,5 +1,5 @@
-import { NoCodeComponentEntry } from "@easyblocks/core";
-import { dotNotationSet } from "@easyblocks/utils";
+import { NoCodeComponentEntry } from "@ecblocks/core";
+import { dotNotationSet } from "@ecblocks/utils";
 import { createEvent, fireEvent, render } from "@testing-library/react";
 import React from "react";
 import { Form } from "./form";

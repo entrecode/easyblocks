@@ -260,7 +260,7 @@ function getCompiledSubcomponents(
             event: ComponentPickerClosedEvent
           ) {
             if (
-              event.data.type === "@easyblocks-editor/component-picker-closed"
+              event.data.type === "@ecblocks-editor/component-picker-closed"
             ) {
               window.removeEventListener(
                 "message",
@@ -301,12 +301,12 @@ export type ComponentBuilderProps = {
   };
   compiled: CompiledComponentConfig;
   components: {
-    "@easyblocks/missing-component": ComponentType<any>;
-    "@easyblocks/rich-text.client": ComponentType<any>;
-    "@easyblocks/rich-text-block-element": ComponentType<any>;
-    "@easyblocks/rich-text-line-element": ComponentType<any>;
-    "@easyblocks/rich-text-part": ComponentType<any>;
-    "@easyblocks/text.client": ComponentType<any>;
+    "@ecblocks/missing-component": ComponentType<any>;
+    "@ecblocks/rich-text.client": ComponentType<any>;
+    "@ecblocks/rich-text-block-element": ComponentType<any>;
+    "@ecblocks/rich-text-line-element": ComponentType<any>;
+    "@ecblocks/rich-text-part": ComponentType<any>;
+    "@ecblocks/text.client": ComponentType<any>;
     "EditableComponentBuilder.client": ComponentType<any>;
     [key: string]: ComponentType<any>;
   };
@@ -345,10 +345,10 @@ function ComponentBuilder(props: ComponentBuilderProps): ReactElement | null {
 
   const component = getComponent(componentDefinition, components, isEditing);
   const isMissingComponent =
-    compiled._component === "@easyblocks/missing-component";
+    compiled._component === "@ecblocks/missing-component";
   const isMissingInstance = component === undefined;
   const isMissing = isMissingComponent || isMissingInstance;
-  const MissingComponent = components["@easyblocks/missing-component"];
+  const MissingComponent = components["@ecblocks/missing-component"];
 
   if (isMissing) {
     if (!isEditing) {

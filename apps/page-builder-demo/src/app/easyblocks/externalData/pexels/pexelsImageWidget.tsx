@@ -3,8 +3,8 @@ import {
   PEXELS_IMAGE_WIDGET_ID,
   pexelsApiFetch,
 } from "@/app/easyblocks/externalData/pexels/pexelsShared";
-import type { Widget, WidgetComponentProps } from "@easyblocks/core";
-import { SimplePicker } from "@easyblocks/design-system";
+import type { Widget, WidgetComponentProps } from "@ecblocks/core";
+import { SimplePicker } from "@ecblocks/design-system";
 
 export const pexelsImageWidget: Widget = {
   id: PEXELS_IMAGE_WIDGET_ID,

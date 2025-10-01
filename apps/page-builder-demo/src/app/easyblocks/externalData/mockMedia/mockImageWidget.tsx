@@ -1,4 +1,4 @@
-import type { Widget } from "@easyblocks/core";
+import type { Widget } from "@ecblocks/core";
 
 export const mockImageWidget: Widget = {
   id: "mockImage",

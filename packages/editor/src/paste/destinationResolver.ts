@@ -1,12 +1,12 @@
-import { SchemaProp } from "@easyblocks/core";
+import { SchemaProp } from "@ecblocks/core";
 import {
   CompilationContextType,
   InternalRenderableComponentDefinition,
   PathInfo,
   findComponentDefinitionById,
   parsePath,
-} from "@easyblocks/core/_internals";
-import { dotNotationGet } from "@easyblocks/utils";
+} from "@ecblocks/core/_internals";
+import { dotNotationGet } from "@ecblocks/utils";
 import { Form } from "../form";
 import { insertCommand } from "./insert";
 

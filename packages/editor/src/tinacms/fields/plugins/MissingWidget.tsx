@@ -1,4 +1,4 @@
-import { Typography } from "@easyblocks/design-system";
+import { Typography } from "@ecblocks/design-system";
 import React from "react";
 
 export function MissingWidget(props: { type: string }) {

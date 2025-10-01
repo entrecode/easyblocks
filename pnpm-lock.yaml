@@ -124,13 +124,13 @@ importers:
 
   apps/dashboard-demo:
     dependencies:
-      '@easyblocks/core':
+      '@ecblocks/core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@easyblocks/design-system':
+      '@ecblocks/design-system':
         specifier: workspace:*
         version: link:../../packages/design-system
-      '@easyblocks/editor':
+      '@ecblocks/editor':
         specifier: workspace:*
         version: link:../../packages/editor
       '@radix-ui/react-dialog':
@@ -190,7 +190,7 @@ importers:
 
   apps/design-system-app:
     dependencies:
-      '@easyblocks/design-system':
+      '@ecblocks/design-system':
         specifier: workspace:*
         version: link:../../packages/design-system
       '@types/node':
@@ -217,10 +217,10 @@ importers:
 
   apps/liquid-demo:
     dependencies:
-      '@easyblocks/core':
+      '@ecblocks/core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@easyblocks/editor':
+      '@ecblocks/editor':
         specifier: workspace:*
         version: link:../../packages/editor
       '@types/node':
@@ -268,13 +268,13 @@ importers:
 
   apps/page-builder-demo:
     dependencies:
-      '@easyblocks/core':
+      '@ecblocks/core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@easyblocks/design-system':
+      '@ecblocks/design-system':
         specifier: workspace:*
         version: link:../../packages/design-system
-      '@easyblocks/editor':
+      '@ecblocks/editor':
         specifier: workspace:*
         version: link:../../packages/editor
       '@types/node':
@@ -329,10 +329,10 @@ importers:
 
   apps/quick-start:
     dependencies:
-      '@easyblocks/core':
+      '@ecblocks/core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@easyblocks/editor':
+      '@ecblocks/editor':
         specifier: workspace:*
         version: link:../../packages/editor
       '@types/node':
@@ -419,16 +419,16 @@ importers:
       '@babel/plugin-transform-runtime':
         specifier: ^7.15.0
         version: 7.21.0(@babel/core@7.21.3)
-      '@easyblocks/build-tools':
+      '@ecblocks/build-tools':
         specifier: workspace:*
         version: link:../build-tools
-      '@easyblocks/reduce-css-calc':
+      '@ecblocks/reduce-css-calc':
         specifier: workspace:*
         version: link:../reduce-css-calc
-      '@easyblocks/test-utils':
+      '@ecblocks/test-utils':
         specifier: workspace:*
         version: link:../test-utils
-      '@easyblocks/utils':
+      '@ecblocks/utils':
         specifier: workspace:*
         version: link:../utils
       '@jest/types':
@@ -492,7 +492,7 @@ importers:
         specifier: ^6.0.7
         version: 6.0.7(babel-plugin-styled-components@2.1.3)(react-dom@18.2.0)(react@18.2.0)
     devDependencies:
-      '@easyblocks/build-tools':
+      '@ecblocks/build-tools':
         specifier: ^1.0.10
         version: link:../build-tools
       '@types/lodash':
@@ -519,10 +519,10 @@ importers:
       '@dnd-kit/sortable':
         specifier: ^7.0.2
         version: 7.0.2(@dnd-kit/core@6.0.8)(react@18.2.0)
-      '@easyblocks/core':
+      '@ecblocks/core':
         specifier: workspace:*
         version: link:../core
-      '@easyblocks/design-system':
+      '@ecblocks/design-system':
         specifier: workspace:*
         version: link:../design-system
       '@emotion/is-prop-valid':
@@ -571,10 +571,10 @@ importers:
         specifier: ^3.21.4
         version: 3.22.4
     devDependencies:
-      '@easyblocks/build-tools':
+      '@ecblocks/build-tools':
         specifier: workspace:*
         version: link:../build-tools
-      '@easyblocks/utils':
+      '@ecblocks/utils':
         specifier: workspace:*
         version: link:../utils
       '@jest/types':

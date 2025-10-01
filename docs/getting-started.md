@@ -5,14 +5,14 @@
 Install the packages:
 
 ```bash
-npm install @easyblocks/editor @easyblocks/core
+npm install @ecblocks/editor @ecblocks/core
 ```
 
 Create the Editor page:
 
 ```typescript
-import { EasyblocksEditor } from "@easyblocks/editor";
-import { Config, EasyblocksBackend } from "@easyblocks/core";
+import { EasyblocksEditor } from "@ecblocks/editor";
+import { Config, EasyblocksBackend } from "@ecblocks/core";
 import { ReactElement } from "react";
 
 const easyblocksConfig: Config = {
@@ -48,7 +48,7 @@ const easyblocksConfig: Config = {
           prop: "Title",
           type: "component",
           required: true,
-          accepts: ["@easyblocks/rich-text"],
+          accepts: ["@ecblocks/rich-text"],
         },
       ],
       styles: ({ values }) => {

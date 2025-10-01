@@ -1,8 +1,8 @@
-import { NoCodeComponentDefinition } from "@easyblocks/core";
+import { NoCodeComponentDefinition } from "@ecblocks/core";
 
 const codeDefinition: NoCodeComponentDefinition = {
   id: "Code",
-  type: "@easyblocks/text-wrapper",
+  type: "@ecblocks/text-wrapper",
   schema: [],
   styles() {
     return {

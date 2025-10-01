@@ -1,4 +1,4 @@
-import { NoCodeComponentAutoFunction } from "@easyblocks/core";
+import { NoCodeComponentAutoFunction } from "@ecblocks/core";
 import { responsiveAuto } from "@/app/easyblocks/components/utils/responsiveAuto";
 
 export const bannerCardAuto: NoCodeComponentAutoFunction = ({

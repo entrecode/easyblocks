@@ -1,4 +1,4 @@
-import { NoCodeComponentDefinition } from "@easyblocks/core";
+import { NoCodeComponentDefinition } from "@ecblocks/core";
 
 export const alertActionDefinition: NoCodeComponentDefinition = {
   id: "AlertAction",

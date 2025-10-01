@@ -1,4 +1,4 @@
-import { NoCodeComponentDefinition } from "@easyblocks/core";
+import { NoCodeComponentDefinition } from "@ecblocks/core";
 import { VimeoPlayerValues, vimeoStyles } from "./VimeoPlayer.styles";
 
 const vimeoPlayerEditableComponent: NoCodeComponentDefinition<VimeoPlayerValues> =

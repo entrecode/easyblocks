@@ -1,4 +1,4 @@
-import { NoCodeComponentDefinition } from "@easyblocks/core";
+import { NoCodeComponentDefinition } from "@ecblocks/core";
 import { linkDefinition } from "../Link/Link.definition";
 
 const TRANSITION_TIMING_FUNCTION = "cubic-bezier(0.4, 0, 0.2, 1)";
@@ -15,7 +15,7 @@ const OPACITY_OPTIONS = Array.from({ length: 10 }, (_, index) => {
 const textLinkDefinition: NoCodeComponentDefinition = {
   id: "TextLink",
   label: "Text link",
-  type: "@easyblocks/text-wrapper",
+  type: "@ecblocks/text-wrapper",
   schema: [
     ...linkDefinition.schema,
     {

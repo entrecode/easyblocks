@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Input } from "@easyblocks/design-system";
+import { Input } from "@ecblocks/design-system";
 
 interface NumberProps
   extends React.DetailedHTMLProps<

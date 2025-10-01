@@ -1,6 +1,6 @@
-import { Option } from "@easyblocks/core";
-import { InternalField } from "@easyblocks/core/_internals";
-import { Icons, SelectInline, ToggleButton } from "@easyblocks/design-system";
+import { Option } from "@ecblocks/core";
+import { InternalField } from "@ecblocks/core/_internals";
+import { Icons, SelectInline, ToggleButton } from "@ecblocks/design-system";
 import React from "react";
 import { FieldMixedValue } from "../../../types";
 import { FieldRenderProps } from "../../form-builder";

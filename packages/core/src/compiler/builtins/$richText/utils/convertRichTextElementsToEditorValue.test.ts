@@ -28,7 +28,7 @@ test("converts empty elements to default editor value", () => {
               color: {
                 tokenId: "black",
                 value: "black",
-                widgetId: "@easyblocks/color",
+                widgetId: "@ecblocks/color",
               },
               font: {
                 tokenId: "$body",

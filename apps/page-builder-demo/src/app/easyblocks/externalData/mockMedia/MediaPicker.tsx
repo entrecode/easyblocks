@@ -1,9 +1,4 @@
-import {
-  Colors,
-  Fonts,
-  Modal,
-  ThumbnailButton,
-} from "@easyblocks/design-system";
+import { Colors, Fonts, Modal, ThumbnailButton } from "@ecblocks/design-system";
 import React, { useState } from "react";
 import type { Media } from "./Media";
 import { MOCK_ASSETS } from "./mockAssets";

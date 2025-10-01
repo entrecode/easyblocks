@@ -1,4 +1,4 @@
-import { Spacing } from "@easyblocks/core";
+import { Spacing } from "@ecblocks/core";
 import { SectionWrapperValues } from "@/app/easyblocks/components/utils/sectionWrapper/sectionWrapperHelpers";
 
 export type GridCompiledValues = SectionWrapperValues & {

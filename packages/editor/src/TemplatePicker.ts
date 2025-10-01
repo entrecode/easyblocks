@@ -1,4 +1,4 @@
-import { ComponentDefinitionShared, Template } from "@easyblocks/core";
+import { ComponentDefinitionShared, Template } from "@ecblocks/core";
 
 export type TemplatesDictionary = {
   [componentId: string]: {

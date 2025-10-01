@@ -1,4 +1,4 @@
-import type { RequestedExternalData, ExternalData } from "@easyblocks/core";
+import type { RequestedExternalData, ExternalData } from "@ecblocks/core";
 import type { ImageSrc, VideoSrc } from "../types";
 import {
   PEXELS_IMAGE_WIDGET_ID,
@@ -72,7 +72,7 @@ export async function fetchPexelsResources(
       return [
         id,
         {
-          type: "@easyblocks/image",
+          type: "@ecblocks/image",
           value: photoValue,
         },
       ];

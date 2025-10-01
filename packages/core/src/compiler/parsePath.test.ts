@@ -47,17 +47,17 @@ const form = {
       ],
     },
     testRichText: {
-      _component: "@easyblocks/rich-text",
+      _component: "@ecblocks/rich-text",
       elements: {
         en: [
           {
-            _component: "@easyblocks/rich-text-block-element",
+            _component: "@ecblocks/rich-text-block-element",
             elements: [
               {
-                _component: "@easyblocks/rich-text-line-element",
+                _component: "@ecblocks/rich-text-line-element",
                 elements: [
                   {
-                    _component: "@easyblocks/rich-text-part",
+                    _component: "@ecblocks/rich-text-part",
                     value: "Lorem ipsum",
                   },
                 ],
@@ -226,10 +226,10 @@ describe("parsePath", () => {
         form as any
       )
     ).toEqual({
-      templateId: "@easyblocks/rich-text-part",
+      templateId: "@ecblocks/rich-text-part",
       index: 0,
       parent: {
-        templateId: "@easyblocks/rich-text-line-element",
+        templateId: "@ecblocks/rich-text-line-element",
         fieldName: "elements",
         path: "testRichText.elements.en.0.elements.0",
       },

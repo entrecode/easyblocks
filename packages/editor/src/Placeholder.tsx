@@ -1,9 +1,9 @@
 import { useDndContext } from "@dnd-kit/core";
 import { useSortable } from "@dnd-kit/sortable";
-import { PlaceholderAppearance } from "@easyblocks/core";
-import { parsePath, useEasyblocksMetadata } from "@easyblocks/core/_internals";
-import { Colors, Fonts } from "@easyblocks/design-system";
-import { toArray } from "@easyblocks/utils";
+import { PlaceholderAppearance } from "@ecblocks/core";
+import { parsePath, useEasyblocksMetadata } from "@ecblocks/core/_internals";
+import { Colors, Fonts } from "@ecblocks/design-system";
+import { toArray } from "@ecblocks/utils";
 import React from "react";
 import { EditorContextType } from "./EditorContext";
 

@@ -1,7 +1,7 @@
 "use client";
 
-import { WidgetComponentProps } from "@easyblocks/core";
-import { SimplePicker } from "@easyblocks/design-system";
+import { WidgetComponentProps } from "@ecblocks/core";
+import { SimplePicker } from "@ecblocks/design-system";
 
 function AssetPicker(props: WidgetComponentProps<string>) {
   return (

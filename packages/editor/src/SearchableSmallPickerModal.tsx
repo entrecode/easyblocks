@@ -1,9 +1,9 @@
-import { BasicRow, Modal } from "@easyblocks/design-system";
+import { BasicRow, Modal } from "@ecblocks/design-system";
 import React, { ChangeEvent, useState } from "react";
 import { useEditorContext } from "./EditorContext";
 import { Template } from "./types";
 import { TemplatePicker, TemplatesDictionary } from "./TemplatePicker";
-import { ComponentDefinitionShared } from "@easyblocks/core";
+import { ComponentDefinitionShared } from "@ecblocks/core";
 
 function checkQueryForTemplate(
   query: string,

@@ -5,7 +5,7 @@ import {
   ExternalData,
   ExternalReference,
   WidgetComponentProps,
-} from "@easyblocks/core";
+} from "@ecblocks/core";
 import { EditorContextType } from "./EditorContext";
 
 export type OpenComponentPickerConfig = {

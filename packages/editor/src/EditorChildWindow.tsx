@@ -7,7 +7,7 @@ import {
   useSensor,
 } from "@dnd-kit/core";
 import { SortableContext } from "@dnd-kit/sortable";
-import { NoCodeComponentEntry, Easyblocks } from "@easyblocks/core";
+import { NoCodeComponentEntry, Easyblocks } from "@ecblocks/core";
 import {
   EasyblocksMetadataProvider,
   EditorContextType,
@@ -15,8 +15,8 @@ import {
   TextEditor,
   configTraverse,
   itemMoved,
-} from "@easyblocks/core/_internals";
-import { useForceRerender } from "@easyblocks/utils";
+} from "@ecblocks/core/_internals";
+import { useForceRerender } from "@ecblocks/utils";
 import React, { useEffect, useRef, useState } from "react";
 import { z } from "zod";
 import { CanvasRoot } from "./CanvasRoot/CanvasRoot";
@@ -149,8 +149,8 @@ export function EasyblocksCanvas({
               externalData={externalData}
               components={{
                 ...components,
-                "@easyblocks/rich-text.editor": RichTextEditor,
-                "@easyblocks/text.editor": TextEditor,
+                "@ecblocks/rich-text.editor": RichTextEditor,
+                "@ecblocks/text.editor": TextEditor,
                 "EditableComponentBuilder.editor": EditableComponentBuilder,
                 Placeholder: TypePlaceholder,
               }}

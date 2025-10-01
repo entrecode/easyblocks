@@ -190,7 +190,7 @@ function snapValueToToken(
       currentToken = {
         tokenId,
         value: tokenValue,
-        widgetId: "@easyblocks/space",
+        widgetId: "@ecblocks/space",
       };
     }
   }

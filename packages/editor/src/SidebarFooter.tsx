@@ -1,15 +1,15 @@
-import { NoCodeComponentEntry } from "@easyblocks/core";
+import { NoCodeComponentEntry } from "@ecblocks/core";
 import {
   findComponentDefinition,
   stripRichTextPartSelection,
-} from "@easyblocks/core/_internals";
+} from "@ecblocks/core/_internals";
 import {
   ButtonPrimary,
   ButtonSecondary,
   Colors,
   Fonts,
-} from "@easyblocks/design-system";
-import { dotNotationGet } from "@easyblocks/utils";
+} from "@ecblocks/design-system";
+import { dotNotationGet } from "@ecblocks/utils";
 import * as React from "react";
 import styled from "styled-components";
 import { useEditorContext } from "./EditorContext";

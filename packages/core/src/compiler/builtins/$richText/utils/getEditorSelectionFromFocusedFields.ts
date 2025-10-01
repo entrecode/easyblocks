@@ -1,4 +1,4 @@
-import { dotNotationGet, last } from "@easyblocks/utils";
+import { dotNotationGet, last } from "@ecblocks/utils";
 import type { Selection } from "slate";
 import { parseFocusedRichTextPartConfigPath } from "./parseRichTextPartConfigPath";
 

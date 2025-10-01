@@ -22,7 +22,7 @@ import {
   normalizeInput,
   responsiveValueGet,
   validate,
-} from "@easyblocks/core";
+} from "@ecblocks/core";
 import {
   CompilationContextType,
   ComponentPickerOpenedEvent,
@@ -33,9 +33,9 @@ import {
   findComponentDefinitionById,
   parsePath,
   traverseComponents,
-} from "@easyblocks/core/_internals";
-import { Colors, Fonts, useToaster } from "@easyblocks/design-system";
-import { dotNotationGet, uniqueId, useForceRerender } from "@easyblocks/utils";
+} from "@ecblocks/core/_internals";
+import { Colors, Fonts, useToaster } from "@ecblocks/design-system";
+import { dotNotationGet, uniqueId, useForceRerender } from "@ecblocks/utils";
 import throttle from "lodash.throttle";
 import React, {
   ComponentType,
@@ -826,7 +826,7 @@ const EditorContent = ({
     actions,
     save: async (documentData) => {
       window.postMessage({
-        type: "@easyblocks/content-saved",
+        type: "@ecblocks/content-saved",
         document: documentData,
       });
     },
@@ -889,7 +889,7 @@ const EditorContent = ({
     function handleEditorEvents(
       event: ComponentPickerOpenedEvent | ItemInsertedEvent | ItemMovedEvent
     ) {
-      if (event.data.type === "@easyblocks-editor/component-picker-opened") {
+      if (event.data.type === "@ecblocks-editor/component-picker-opened") {
         actions
           .openComponentPicker({ path: event.data.payload.path })
           .then((config) => {
@@ -903,11 +903,11 @@ const EditorContent = ({
           });
       }
 
-      if (event.data.type === "@easyblocks-editor/item-inserted") {
+      if (event.data.type === "@ecblocks-editor/item-inserted") {
         actions.insertItem(event.data.payload);
       }
 
-      if (event.data.type === "@easyblocks-editor/item-moved") {
+      if (event.data.type === "@ecblocks-editor/item-moved") {
         const { fromPath, toPath, placement } = event.data.payload;
 
         const fromPathParseResult = parsePath(fromPath, editorContext.form);
@@ -1021,7 +1021,7 @@ const EditorContent = ({
 
                   window.postMessage(
                     {
-                      type: "@easyblocks/closed",
+                      type: "@ecblocks/closed",
                     },
                     "*"
                   );

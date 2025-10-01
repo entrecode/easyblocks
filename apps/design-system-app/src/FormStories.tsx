@@ -3,7 +3,7 @@ import {
   Input,
   Toggle,
   Typography,
-} from "@easyblocks/design-system";
+} from "@ecblocks/design-system";
 
 export function FormStories() {
   return (

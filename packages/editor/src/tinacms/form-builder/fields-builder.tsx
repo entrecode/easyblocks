@@ -1,6 +1,6 @@
-import { InternalField } from "@easyblocks/core/_internals";
-import { Colors, Fonts, Typography } from "@easyblocks/design-system";
-import { toArray } from "@easyblocks/utils";
+import { InternalField } from "@ecblocks/core/_internals";
+import { Colors, Fonts, Typography } from "@ecblocks/design-system";
+import { toArray } from "@ecblocks/utils";
 import React, { useContext } from "react";
 import styled, { css } from "styled-components";
 import { useEditorContext } from "../../EditorContext";

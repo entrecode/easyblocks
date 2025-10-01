@@ -1,4 +1,4 @@
-import { RangeSlider, Typography } from "@easyblocks/design-system";
+import { RangeSlider, Typography } from "@ecblocks/design-system";
 
 export function RangeSliderStories() {
   return (

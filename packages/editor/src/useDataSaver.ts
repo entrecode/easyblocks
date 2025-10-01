@@ -1,5 +1,5 @@
-import { NoCodeComponentEntry, Document } from "@easyblocks/core";
-import { deepClone, deepCompare, sleep } from "@easyblocks/utils";
+import { NoCodeComponentEntry, Document } from "@ecblocks/core";
+import { deepClone, deepCompare, sleep } from "@ecblocks/utils";
 import { useEffect, useRef, useState } from "react";
 import { EditorContextType } from "./EditorContext";
 import { getConfigSnapshot } from "./utils/config/getConfigSnapshot";

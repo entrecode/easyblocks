@@ -1,8 +1,5 @@
-import {
-  EditorContextType,
-  duplicateConfig,
-} from "@easyblocks/core/_internals";
-import { dotNotationGet, preOrderPathComparator } from "@easyblocks/utils";
+import { EditorContextType, duplicateConfig } from "@ecblocks/core/_internals";
+import { dotNotationGet, preOrderPathComparator } from "@ecblocks/utils";
 import { useEffect } from "react";
 
 const GLOBAL_SHORTCUTS_KEYS = [

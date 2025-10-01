@@ -3,13 +3,13 @@ import {
   FetchOutputResources,
   InlineTypeWidgetComponentProps,
   WidgetComponentProps,
-} from "@easyblocks/core";
+} from "@ecblocks/core";
 import {
   ModalContext,
   GlobalModalStyles,
   Toaster,
   TooltipProvider,
-} from "@easyblocks/design-system";
+} from "@ecblocks/design-system";
 import isPropValid from "@emotion/is-prop-valid";
 import React, { ComponentType } from "react";
 import { ShouldForwardProp, StyleSheetManager } from "styled-components";
@@ -49,7 +49,7 @@ const shouldForwardProp: ShouldForwardProp<"web"> = (propName, target) => {
 const builtinWidgets: EasyblocksParentProps["widgets"] = {
   color: ColorTokenWidget,
   space: SpaceTokenWidget,
-  "@easyblocks/document-data": DocumentDataWidgetComponent as any,
+  "@ecblocks/document-data": DocumentDataWidgetComponent as any,
 };
 
 const builinPickers: EasyblocksParentProps["pickers"] = {

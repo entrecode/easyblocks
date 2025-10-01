@@ -1,4 +1,4 @@
-import { NoCodeComponentDefinition } from "@easyblocks/core";
+import { NoCodeComponentDefinition } from "@ecblocks/core";
 
 export const simpleBannerDefinition: NoCodeComponentDefinition = {
   id: "SimpleBanner",
@@ -35,7 +35,7 @@ export const simpleBannerDefinition: NoCodeComponentDefinition = {
       prop: "Title",
       type: "component",
       required: true,
-      accepts: ["@easyblocks/rich-text"],
+      accepts: ["@ecblocks/rich-text"],
     },
     {
       prop: "Buttons",

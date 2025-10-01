@@ -1,5 +1,5 @@
-import { NoCodeComponentEntry } from "@easyblocks/core";
-import { deepClone } from "@easyblocks/utils";
+import { NoCodeComponentEntry } from "@ecblocks/core";
+import { deepClone } from "@ecblocks/utils";
 
 /**
  * Outputs comparable config that is FULL COPY of config

@@ -1,4 +1,4 @@
-import { dotNotationGet, nonNullable, range } from "@easyblocks/utils";
+import { dotNotationGet, nonNullable, range } from "@ecblocks/utils";
 import { Locale, getFallbackLocaleForLocale } from "../../../locales";
 import {
   NoCodeComponentDefinition,
@@ -42,7 +42,7 @@ const editing: RichTextEditingFunction = ({
     richTextConfig,
     editorContext,
     (config): config is RichTextBlockElementComponentConfig => {
-      return config._component === "@easyblocks/rich-text-block-element";
+      return config._component === "@ecblocks/rich-text-block-element";
     }
   );
 
@@ -109,7 +109,7 @@ const editing: RichTextEditingFunction = ({
     richTextConfig,
     editorContext,
     (config): config is RichTextPartComponentConfig => {
-      return config._component === "@easyblocks/rich-text-part";
+      return config._component === "@ecblocks/rich-text-part";
     }
   );
 
@@ -163,7 +163,7 @@ const editing: RichTextEditingFunction = ({
 };
 
 const richTextEditableComponent: NoCodeComponentDefinition = {
-  id: "@easyblocks/rich-text",
+  id: "@ecblocks/rich-text",
   label: "Text",
   thumbnail:
     "https://shopstory.s3.eu-central-1.amazonaws.com/picker_icon_text.png",

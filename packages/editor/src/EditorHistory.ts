@@ -1,5 +1,5 @@
-import { NoCodeComponentEntry } from "@easyblocks/core";
-import { deepCompare } from "@easyblocks/utils";
+import { NoCodeComponentEntry } from "@ecblocks/core";
+import { deepCompare } from "@ecblocks/utils";
 
 const HISTORY_SIZE = 50;
 

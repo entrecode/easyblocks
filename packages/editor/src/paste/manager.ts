@@ -1,4 +1,4 @@
-import { NoCodeComponentEntry } from "@easyblocks/core";
+import { NoCodeComponentEntry } from "@ecblocks/core";
 import { Destination } from "./destinationResolver";
 
 function pasteManager() {

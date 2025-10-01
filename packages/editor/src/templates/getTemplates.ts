@@ -5,13 +5,13 @@ import {
   Template,
   UserDefinedTemplate,
   getDefaultLocale,
-} from "@easyblocks/core";
+} from "@ecblocks/core";
 import {
   InternalComponentDefinition,
   findComponentDefinitionById,
   normalize,
-} from "@easyblocks/core/_internals";
-import { uniqueId } from "@easyblocks/utils";
+} from "@ecblocks/core/_internals";
+import { uniqueId } from "@ecblocks/utils";
 import { EditorContextType } from "../EditorContext";
 import { configMap } from "../utils/config/configMap";
 
@@ -21,7 +21,7 @@ function getDefaultTemplateForDefinition(
 ): InternalTemplate {
   // Text has different way of building a default config
   const config: NoCodeComponentEntry =
-    def.id === "@easyblocks/rich-text"
+    def.id === "@ecblocks/rich-text"
       ? buildRichTextNoCodeEntry({
           color: getDefaultTokenId(editorContext.theme.colors),
           font: getDefaultTokenId(editorContext.theme.fonts),

@@ -1,7 +1,7 @@
 import type {
   NoCodeComponentStylesFunctionInput,
   NoCodeComponentStylesFunctionResult,
-} from "@easyblocks/core";
+} from "@ecblocks/core";
 import { imageStyles } from "../Image/Image.styles";
 
 export default function styles(

@@ -1,4 +1,4 @@
-import { NavigationController, Typography } from "@easyblocks/design-system";
+import { NavigationController, Typography } from "@ecblocks/design-system";
 
 export function NavigationControllerStories() {
   return (
