@@ -80,7 +80,6 @@ import { useEditorGlobalKeyboardShortcuts } from "./useEditorGlobalKeyboardShort
 import { useEditorHistory } from "./useEditorHistory";
 import { checkLocalesCorrectness } from "./utils/locales/checkLocalesCorrectness";
 import { removeLocalizedFlag } from "./utils/locales/removeLocalizedFlag";
-import { ZodNullDef } from "zod";
 import { TemplatePicker } from "./TemplatePicker";
 
 const ContentContainer = styled.div`

@@ -11,8 +11,6 @@ import {
 import { dotNotationGet } from "@ecblocks/utils";
 import React, { FC } from "react";
 import { useEditorContext } from "./EditorContext";
-import { SearchableSmallPickerModal } from "./SearchableSmallPickerModal";
-import { SectionPickerModal } from "./SectionPicker";
 import { TemplatePicker, TemplatesDictionary } from "./TemplatePicker";
 import { OpenComponentPickerConfig } from "./types";
 import { unrollAcceptsFieldIntoComponents } from "./unrollAcceptsFieldIntoComponents";
